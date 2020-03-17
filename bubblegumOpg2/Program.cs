@@ -34,7 +34,7 @@ namespace bubblegumMachine
                     case 1:
                         // så trækkes et random Bubblegum Objekt fra listen
                         Bubblegum gum = dispenser.DrawRandomGum();
-                        // det bliver udskrevet
+                        // navnet på objektet bliver udskrevet
                         Console.WriteLine($"You´ve got a gum of: {gum.Name} and the color is: {gum.Color}");
                         // tjekker på om der er flere Bubblegum objekter tilbage i listen
                         if (count == 0)
