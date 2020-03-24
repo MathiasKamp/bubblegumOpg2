@@ -15,6 +15,8 @@
 		public string Name
 		{
 			get { return name; }
+			
+			//Overvej lige om denne property skal være public!
 			set { name = value; }
 		}
 
@@ -23,6 +25,7 @@
 		public string Color
 		{
 			get { return color; }
+				//Overvej lige om denne property skal være public!
 			set { color = value; }
 		}
 
